@@ -1,0 +1,23 @@
+variable "project_id" {
+  description = "GCP project ID"
+  type        = string
+  default     = "mlops-prod-project"
+}
+
+variable "region" {
+  description = "GCP region"
+  type        = string
+  default     = "us-central1"
+}
+
+variable "zone" {
+  description = "GCP zone"
+  type        = string
+  default     = "us-central1-a"
+}
+
+variable "environment" {
+  description = "Environment name"
+  type        = string
+  default     = "prod"
+}
